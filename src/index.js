@@ -3,6 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// const path =require('path')
+
+// const_dirname = path.dirname("")
+// const buildPath =path.join(_dirname ,"../Movie-App-master/build")
+
+//    App.use(express.static(buildPath))
+//    App.get("/*",function(req,res){
+//      res.sendFile(
+//         path.join(_dirname,"../Movie-App-master/build/index.css"),
+//         function(err){
+//           if(err){
+//             return res.status(500).send(err)
+//           }
+//         }
+//      )
+// })   sayili.zip
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
